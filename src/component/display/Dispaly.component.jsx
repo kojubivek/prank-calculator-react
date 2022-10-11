@@ -1,6 +1,8 @@
-const Display = ({ strToDisplay }) => {
+const Display = ({ strToDisplay, isprank }) => {
+  const clsName = isprank ? "display prank" : "display";
+
   return (
-    <div className="display">
+    <div className={clsName}>
       <span className="modifier">{strToDisplay || "0.00"}</span>
     </div>
   );

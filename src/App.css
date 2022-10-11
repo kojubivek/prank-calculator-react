@@ -87,6 +87,8 @@
   z-index: -1;
 }
 .prank {
+  background: red !important;
+  color: #d9d9d9;
   animation: shake 1s;
 }
 
